@@ -6,7 +6,7 @@ import json
 import pandas as pd
 
 params = {
-  "api_key": "28631dd982fd40c01eac0bfe5b600ae7653360d85434bd1c1d1d800418169e0d",                   # your api key
+  "api_key": "YOUR_SERPAPI_KEY",                   # your api key
   "engine": "google_maps_reviews",                    # serpapi search engine
   "hl": "id",                                         # language of the search
   "data_id": "0x2e69f5c4552c7473:0x8b7a429bd29969a2"  # place id data located inside Google Maps Place URL: located inside `data=` query parameter. 
