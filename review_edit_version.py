@@ -7,7 +7,7 @@ params = {
     "q": "coffee",
     "type": "search",
     "ll": "@40.7455096,-74.0083012,14z",
-    "api_key": os.getenv("4b54b0e2f23881d4b4e2707c8ad4e88c5d97ee10bbafe183a9c8b4d96bcaed2e"),
+    "api_key": os.getenv("YOUR API KEY"),
 }
 
 search = SerpApiClient(params, timeout=90)
